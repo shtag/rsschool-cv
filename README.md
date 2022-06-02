@@ -1,1 +1,1 @@
-# rsschool-cv
+# Vasyl Kanishchev
