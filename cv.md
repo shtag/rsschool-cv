@@ -5,3 +5,22 @@ Email: vasyakanishchev@gmail.com<br/>
 Telergam: [@vasyakanishchev](https://t.me/vasyakanishchev)<br/>
 Discord: shtag(@shtag)<br/>
 GitHub:[shtag](https://github.com/shtag)
+
+## About Me
+I am a student in RS School.  I like to learn frontend and make websites.
+
+## Skills
+HTML, CSS, Java Script, React.JS, Git, GitHub, VSCode
+
+## Project
+[CV](https://github.com/shtag/rsschool-cv/blob/gh-pages/cv.md) - it's my CV. I used markdown syntax to create CV on GitHub.
+
+## Code
+This is a function that reverse numbers like: (12345) => 54321.
+```
+function reverse (n) {
+  if(n < 0) n = -n; else n = n;
+  let arr = n.toString().split('');
+  return Number(arr.reverse().join(''));
+}
+```
