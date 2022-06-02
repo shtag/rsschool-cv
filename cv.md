@@ -24,3 +24,14 @@ function reverse (n) {
   return Number(arr.reverse().join(''));
 }
 ```
+
+## Education
+**Zaporizhya State Engineering Academy (2014-2018)**<br/>
+Bachelor Degree<br/>
+Program subject area Heat and Power Engineering<br/><br/>
+**The Rolling Scopes School (2022-2023)**<br/>
+JavaScript/Frontend
+
+## Language
+#### English (B1-B2)
+I pass couple tests on my english level, writing and reading is C1-C2. But speaking and writing B1-B2. I train english in online game chat about 5 years.
