@@ -1,1 +1,1 @@
-https://shtag.github.io/rsschool-cv/cv
+https://shtag.github.io/rsschool-cv/
