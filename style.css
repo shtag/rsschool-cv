@@ -2,6 +2,7 @@
   font-family: 'Poppins', sans-serif;
   color: #2e2c2d;
   margin: 0;
+  
 }
 header{
   display: grid;
@@ -98,6 +99,7 @@ main{
 }
 .block{
   margin: 20px 30px;
+  font-size: 14px;
 }
 .double-slash{
   background-image: url(img/double-slash.svg);
@@ -114,7 +116,6 @@ main{
   color: blue;
 }
 .main-right{
-  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
