@@ -80,8 +80,33 @@ li{
   align-items: center;
   margin: 5px 0;
 }
-.logo-contact{
+.location::before{
+  background-image: url(img/location.svg);
+  background-repeat: no-repeat;
+  content: "";
   height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.mail::before{
+  background-image: url(img/mail.svg);
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.telegram::before{
+  background-image: url(img/telegram-logo.svg);
+  background-size: contain;
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.discord::before{
+  background-image: url(img/discord.svg) ;
+  content: "";
+  height: 13px;
   width: 16px;
   margin-right: 5px;
 }
