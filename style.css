@@ -168,12 +168,19 @@ a{
   text-decoration: none;
   color: #2e2c2d;
 }
-
+#language:focus{
+  color: #f9e826;
+}
 
 
 .block{
   margin: 10px 30px;
   font-size: 14px;
+}
+.before{
+  
+  height: 60px;
+  display: block;
 }
 p{
   text-align: center;
