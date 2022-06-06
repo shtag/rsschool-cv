@@ -2,29 +2,92 @@
   font-family: 'Poppins', sans-serif;
   color: #2e2c2d;
   margin: 0;
+  scroll-behavior:smooth;
+  
   
 }
+body{
+  background-color: #2e2c2d;
+}
+
 header{
+  display: block;
+  position: fixed;
+  height: 70px;
+  width: 800px;
+  margin-left: -400px;
+  left: 50%;
+  background-color: #cacaca77;
+  transition: 1s;
+}
+header:hover{
+  background-color: #cacaca;
+  transition: 1s;
+}
+header ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+header ul a{
+  font-size: 20px;
+}
+header ul a:hover{
+  transition: 0.5s;
+}
+header li:hover .botline{
+  animation-name: line;
+  animation-duration: 0.5s;
+  background-color: rgb(0, 0, 0);
+}
+header li:hover .topline{
+  animation-name: line;
+  animation-duration: 0.5s;
+  background-color: rgb(0, 0, 0);
+}
+header ul li{
+  position: relative;
+  
+}
+
+.topline{
+  position: absolute;
+  top: 0%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  transition: 0.2s;
+}
+.botline{
+  position: absolute;
+  top: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  transition: 0.2s;
+}
+@keyframes line {
+  0%{width: 0%;  } 
+  100%{width: 100%;}
+}
+
+.first-block{
   display: grid;
   grid-template-columns: 300px 1fr;
+  padding-top: 70px;
 }
 .container{
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background: rgb(255, 255, 255);
+  background: rgb(160, 135, 135);
   margin: 0 auto;
 }
 .portrait{
-  background: url(img/portrait3.jpeg);
-  background-size:100%;
   width: 300px;
-  padding: 0px;
-  margin: 0px;
 }
 .name{
   display: block;
   padding: 80px 0 10px 25px;
+  background-color: #cacaca;
 }
 h1{
   display: block;
@@ -37,6 +100,8 @@ h1{
 h2{
   margin: 0 auto;
   margin-bottom: 5px;
+  font-size: 32px;
+  width: fit-content;
   
 }
 .badge{
@@ -114,17 +179,15 @@ a{
   text-decoration: none;
   color: #2e2c2d;
 }
-main{
-  display: grid;
-  grid-template-columns: 300px 500px;
-}
-.main-left{
-  width: 300px;
-  background:#f9e826;
-}
+
+
+
 .block{
   margin: 10px 30px;
   font-size: 14px;
+}
+p{
+  text-align: center;
 }
 .double-slash{
   background-image: url(img/double-slash.svg);
@@ -136,18 +199,23 @@ main{
   display: flex;
   align-items: center;
 }
-
+.skills-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.education-rolling{
+  margin-top: 25px;
+}
 .cv-link{
   color: blue;
 }
-.main-right{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+pre{
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
 }
 .experience h3{
   margin-bottom: 10px;
-  
 }
 .experience p{
   margin-top: 15px;
