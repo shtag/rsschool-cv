@@ -2,14 +2,11 @@
   font-family: 'Poppins', sans-serif;
   color: #2e2c2d;
   margin: 0;
-  scroll-behavior:smooth;
-  
-  
+  scroll-behavior:smooth; 
 }
 body{
   box-sizing: border-box;
 }
-
 header{
   display: block;
   position: fixed;
@@ -32,21 +29,6 @@ header ul{
 header ul a{
   font-size: 20px;
 }
-
-/* .navline::before{
-  content: "";
-  height: 2px;
-  display:block;
-  width: 0%;
-  background-color: black;
-  transition: 0.5s;
-  margin: 0 auto;
-  float: right;
-}
-.navline:hover::before{
-  width: 100%;
-  transition: 0.5s;
-} */
 .navline::after{
   content: "";
   height: 2px;
@@ -67,7 +49,6 @@ header ul a{
 }
 .container{
   width: 900px;
-  /* background: rgb(160, 135, 135); */
   margin: 0 auto;
 }
 .portrait{
@@ -91,7 +72,6 @@ h2{
   margin-bottom: 5px;
   font-size: 32px;
   width: fit-content;
-  
 }
 .badge{
   color: #f9e826;
@@ -110,7 +90,6 @@ h2{
   color: #2e2c2d;
   transition: 0.2s;
 }
-
 .contacts{
   font-size: 12px;
   display: flex;
@@ -126,9 +105,7 @@ h2{
 }
 .contacts li{
   width: 235px;
-  
 }
-
 ul{
   margin: 0;
   padding: 0;
@@ -182,7 +159,6 @@ a{
   font-size: 14px;
 }
 .before{
-  
   height: 60px;
   display: block;
 }
@@ -269,7 +245,6 @@ pre{
 .experience p{
   margin-top: 15px;
 }
-
 .exp-title{
   display: flex;
   justify-content: space-around;
