@@ -211,6 +211,8 @@ p{
 }
 .project a img:hover{
   opacity: 0.8;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 .project p{
   text-align: left;
