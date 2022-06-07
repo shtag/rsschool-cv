@@ -7,7 +7,7 @@
   
 }
 body{
-  
+  box-sizing: border-box;
 }
 
 header{
@@ -171,8 +171,6 @@ a{
 #language:focus{
   color: #f9e826;
 }
-
-
 .block{
   margin: 10px 30px;
   font-size: 14px;
@@ -198,6 +196,52 @@ p{
 .skills-flex{
   display: flex;
   justify-content: space-around;
+}
+.project{
+  display: flex;
+  margin-bottom: 50px;
+}
+.project div{
+  width: 400px;
+  padding: 40px;
+}
+.project a img{
+  display: block;
+  width: 400px;
+}
+.project a img:hover{
+  opacity: 0.8;
+}
+.project p{
+  text-align: left;
+}
+.project-btn{
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #cacaca;
+  display: block;
+  width: 160px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.project-btn::after{
+  content: "";
+  height: 2px;
+  display:block;
+  width: 0%;
+  background-color: black;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+.project-btn:hover{
+  background-color: #9c9c9c;
+  transition: 0.5s;
+}
+.project-btn:hover::after{
+  width: 75%;
+  transition: 0.5s;
 }
 .education-rolling{
   margin-top: 25px;
