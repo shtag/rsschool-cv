@@ -1,1 +1,1 @@
-# rsschool-cv
+https://shtag.github.io/rsschool-cv/
