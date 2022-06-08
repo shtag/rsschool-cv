@@ -1,0 +1,265 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  color: #2e2c2d;
+  margin: 0;
+  scroll-behavior:smooth; 
+}
+body{
+  box-sizing: border-box;
+}
+header{
+  display: block;
+  position: fixed;
+  height: 70px;
+  width: 900px;
+  margin-left: -450px;
+  left: 50%;
+  background-color: #cacaca77;
+  transition: 1s;
+}
+header:hover{
+  background-color: #cacaca;
+  transition: 1s;
+}
+header ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+header ul a{
+  font-size: 20px;
+}
+.navline::after{
+  content: "";
+  height: 2px;
+  display:block;
+  width: 0%;
+  background-color: black;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+.navline:hover::after{
+  width: 100%;
+  transition: 0.5s;
+}
+.first-block{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding-top: 70px;
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+.portrait{
+  width: 300px;
+}
+.name{
+  display: block;
+  padding: 80px 0 10px 25px;
+  background-color: #cacaca;
+}
+h1{
+  display: block;
+  width: fit-content;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.1em;
+}
+h2{
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 32px;
+  width: fit-content;
+}
+.badge{
+  color: #f9e826;
+  background: rgb(78, 51, 51);
+  width: fit-content;
+  align-content: center;
+  margin: 10px 0;
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-size: 24px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.badge:hover{
+  background-color: #9c9c9c;
+  color: #2e2c2d;
+  transition: 0.2s;
+}
+.contacts{
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contacts ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 470px;
+}
+.contacts li{
+  width: 235px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  font-size: 14px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 5px 0;
+}
+.location::before{
+  background-image: url(img/location.svg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.mail::before{
+  background-image: url(img/mail.svg);
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.telegram::before{
+  background-image: url(img/telegram-logo.svg);
+  background-size: contain;
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.discord::before{
+  background-image: url(img/discord.svg) ;
+  content: "";
+  height: 13px;
+  width: 16px;
+  margin-right: 5px;
+}
+a{
+  text-decoration: none;
+  color: #2e2c2d;
+}
+#language:focus{
+  color: #f9e826;
+}
+.block{
+  margin: 10px 30px;
+  font-size: 14px;
+}
+.before{
+  height: 60px;
+  display: block;
+}
+p{
+  text-align: center;
+}
+.double-slash{
+  background-image: url(img/double-slash.svg);
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+}
+.skills-part{
+  display: flex;
+  align-items: center;
+}
+.skills-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.project{
+  display: flex;
+  margin-bottom: 50px;
+}
+.project div{
+  width: 400px;
+  padding: 40px;
+}
+.project a img{
+  display: block;
+  width: 400px;
+}
+.project a img:hover{
+  opacity: 0.8;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.project p{
+  text-align: left;
+}
+.project-btn{
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #cacaca;
+  display: block;
+  width: 160px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.project-btn::after{
+  content: "";
+  height: 2px;
+  display:block;
+  width: 0%;
+  background-color: black;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+.project-btn:hover{
+  background-color: #9c9c9c;
+  transition: 0.5s;
+}
+.project-btn:hover::after{
+  width: 75%;
+  transition: 0.5s;
+}
+.education-rolling{
+  margin-top: 25px;
+}
+.cv-link{
+  color: blue;
+}
+pre{
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.experience h3{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.experience p{
+  margin-top: 15px;
+}
+.exp-title{
+  display: flex;
+  justify-content: space-around;
+}
+footer{
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rs{
+  background-image: url(img/rs_school_js.svg);
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 83px;
+}
